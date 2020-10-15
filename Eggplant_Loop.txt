@@ -1,0 +1,4 @@
+@ECHO OFF
+:TOP
+adb shell input tap 500 500
+goto TOP
