@@ -1,7 +1,7 @@
 @ECHO OFF
 
-set prodCMD="-u -c 2607:fb90:c10d:200:f816:3eff:febc:635f -b 50M -t600 -P5 -V -p8100 -R -l1400"
-set labCMD="-u -c 10.25.17.35 -b 50M -t600 -P5 -p8100 -R -l1400"
+set prodCMD="-u -c  -b 50M -t600 -P5 -V -p8100 -R -l1400"
+set labCMD="-u -c  -b 50M -t600 -P5 -p8100 -R -l1400"
 set MTNUM1=8773409024
 
 :TOP
@@ -25,3 +25,4 @@ echo ENDING CALL...
 TIMEOUT 3 >NUL
 
 goto TOP
+
